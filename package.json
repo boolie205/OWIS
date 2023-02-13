@@ -1,0 +1,26 @@
+{
+  "name": "owis",
+  "version": "1.0.0",
+  "description": "An open source weapons and ordnance detection and recognition system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "ts-node-dev --inspect=0.0.0.0:9232 --respawn --transpile-only --exit-child --deps app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boolie205/OWIS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boolie205/OWIS/issues"
+  },
+  "homepage": "https://github.com/boolie205/OWIS#readme",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "ts-node-dev": "^2.0.0"
+  }
+}
